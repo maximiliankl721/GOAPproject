@@ -1,0 +1,1451 @@
+﻿Log file open, 10/31/24 23:08:46
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Custom abort handler registered for crash reporting.
+LogCore: Display: UTS: The Unreal Trace Server binary is not available ('../../../Engine/Binaries/Win64/UnrealTraceServer.exe')
+LogTrace: Initializing trace...
+LogTrace: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.4-CL-35576357"
+LogCsvProfiler: Display: Metadata set : engineversion="5.4.4-35576357+++UE5+Release-5.4"
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (23H2) [10.0.22631.4391] "
+LogCsvProfiler: Display: Metadata set : cpu="AuthenticAMD|AMD Ryzen 7 5800X3D 8-Core Processor"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : commandline="" GOAP_5_4""
+LogCsvProfiler: Display: Metadata set : loginid="78aa5cf34f8ec42495e17b885fd70d40"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogPakFile: Initializing PakPlatformFile
+LogIoDispatcher: Display: Reading toc: ../../../GOAP_5_4/Content/Paks/global.utoc
+LogIoDispatcher: Display: Toc signature hash: 0000000000000000000000000000000000000000
+LogIoDispatcher: Display: Mounting container '../../../GOAP_5_4/Content/Paks/global.utoc' in location slot 0
+LogPakFile: Display: Initialized I/O dispatcher file backend. Mounted the global container: ../../../GOAP_5_4/Content/Paks/global.utoc
+LogPakFile: Display: Found Pak file ../../../GOAP_5_4/Content/Paks/GOAP_5_4-Windows.pak attempting to mount.
+LogPakFile: Display: Mounting pak file ../../../GOAP_5_4/Content/Paks/GOAP_5_4-Windows.pak.
+LogIoDispatcher: Display: Reading toc: ../../../GOAP_5_4/Content/Paks/GOAP_5_4-Windows.utoc
+LogIoDispatcher: Display: Toc signature hash: 0000000000000000000000000000000000000000
+LogIoDispatcher: Display: Mounting container '../../../GOAP_5_4/Content/Paks/GOAP_5_4-Windows.utoc' in location slot 0
+LogPakFile: Display: Mounted IoStore container "../../../GOAP_5_4/Content/Paks/GOAP_5_4-Windows.utoc"
+LogPakFile: Display: Mounted Pak file '../../../GOAP_5_4/Content/Paks/GOAP_5_4-Windows.pak', mount point: '../../../'
+LogStats: Stats thread started at 0.117426
+LogAssetRegistry: Premade AssetRegistry loaded from '../../../GOAP_5_4/AssetRegistry.bin'
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-E3DA297740631422F76578AA0E339129
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [../../../GOAP_5_4/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin ACLPlugin
+LogPluginManager: Mounting Engine plugin AnimationData
+LogPluginManager: Mounting Engine plugin ControlRigModules
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosVD
+LogPluginManager: Found config from plugin[ChaosVD] Engine
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin RenderDocPlugin
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin ObjectMixer
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Found config from plugin[EnhancedInput] Input
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin VariantManager
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin Fracture
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin LocalizableMessage
+LogPluginManager: Mounting Engine plugin MetaHumanProjectUtilities
+LogPluginManager: Mounting Engine plugin OpenImageDenoise
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin StructUtils
+LogPluginManager: Mounting Engine plugin ToolPresets
+LogPluginManager: Mounting Engine plugin NiagaraSimCaching
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin ElectronicNodes
+LogPluginManager: Mounting Engine plugin VisualStudioTools
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin DataRegistry
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GameplayAbilities
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Found config from plugin[InputDebugging] Input
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin MsQuic
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin RigVM
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin XInputDevice
+LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin TraceUtilities
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin WorldMetrics
+LogWindows: Failed to load 'WinPixGpuCapturer.dll' (GetLastError=126)
+LogWindows: File 'WinPixGpuCapturer.dll' does not exist
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogConfig: Applying CVar settings from Section [/Script/RenderDocPlugin.RenderDocPluginSettings] File [Engine]
+RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+LogInit: Using libcurl 8.4.0
+LogInit:  - built for Windows
+LogInit:  - supports SSL with OpenSSL/1.1.1t
+LogInit:  - supports HTTP deflate (compression) using libz 1.3
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: CreateHttpThread using FCurlHttpThread
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+LogInit: ExecutableName: GOAP_5_4.exe
+LogInit: Build: ++UE5+Release-5.4-CL-35576357
+LogInit: Platform=Windows
+LogInit: MachineId=78aa5cf34f8ec42495e17b885fd70d40
+LogInit: DeviceId=
+LogInit: Engine Version: 5.4.4-35576357+++UE5+Release-5.4
+LogInit: Compatible Engine Version: 5.4.0-33043543+++UE5+Release-5.4
+LogInit: Net CL: 33043543
+LogInit: OS: Windows 11 (23H2) [10.0.22631.4391] (), CPU: AMD Ryzen 7 5800X3D 8-Core Processor           , GPU: AMD Radeon RX 7900 GRE
+LogInit: Compiled (64-bit): Aug 16 2024 04:15:50
+LogInit: Architecture: x64
+LogInit: Compiled with Visual C++: 19.38.33130.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.4
+LogInit: Command Line: 
+LogInit: Base Directory: X:/Studium/Bachelorarbeit/Projekt/Executable/Windows/GOAP_5_4/Binaries/Win64/
+LogInit: Allocator: binned2
+LogInit: Installed Engine Build: 0
+LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+LogDevObjectVersion: Number of dev versions registered: 39
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 48
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 134
+LogDevObjectVersion:   FortniteValkyrie (8DBC2C5B-54A7-43E0-A768-FCBB7DA29060): 8
+LogDevObjectVersion:   FortniteSeason (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 12
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 13
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 119
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 51
+LogDevObjectVersion:   UE5-PrivateFrosty (59DA5D52-1232-4948-B878-597870B8E98B): 8
+LogDevObjectVersion:   UE5-Dev-Cooker (26075A32-730F-4708-88E9-8C32F1599D05): 0
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   UE5-Dev-LWCRendering (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogDevObjectVersion:   Dev-RigVM (DC49959B-53C0-4DE7-9156-EA885E7C5D39): 9
+LogDevObjectVersion:   Dev-ControlRig (A7820CFB-20A7-4359-8C54-2C149623CF50): 30
+LogDevObjectVersion:   Dev-IKRig (F6DFBB78-BB50-A0E4-4018-B84D60CBAF23): 2
+LogInit: Presizing for max 2097152 objects, including 1 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogStreaming: Display: AsyncLoading2 - Created: Event Driven Loader: false, Async Loading Thread: true, Async Post Load: true
+LogStreaming: Display: AsyncLoading2 - Initialized
+LogInit: Object subsystem initialized
+LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: Set CVar [[r.setres:1280x720]]
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: Set CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+[2024.10.31-22.08.46:260][  0]LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2024.10.31-22.08.46:260][  0]LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[D3D12.Bindless.ResourceDescriptorHeapSize:100000]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[D3D12.Bindless.SamplerDescriptorHeapSize:2048]]
+[2024.10.31-22.08.46:260][  0]LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+[2024.10.31-22.08.46:260][  0]LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+[2024.10.31-22.08.46:260][  0]LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+[2024.10.31-22.08.46:260][  0]LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+[2024.10.31-22.08.46:260][  0]LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2024.10.31-22.08.46:260][  0]LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+[2024.10.31-22.08.46:260][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2024.10.31-22.08.46:260][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2024.10.31-22.08.46:260][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[r.GPUCrashDebugging:0]]
+[2024.10.31-22.08.46:260][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[r.ReflectionMethod:1]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[r.GenerateMeshDistanceFields:1]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[r.DynamicGlobalIlluminationMethod:1]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs:0]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[r.Shadow.Virtual.Enable:1]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[r.Mobile.EnableNoPrecomputedLightingCSMShader:1]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[r.DefaultFeature.LocalExposure.HighlightContrastScale:0.8]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[r.DefaultFeature.LocalExposure.ShadowContrastScale:0.8]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[r.Shaders.RemoveUnusedInterpolators:1]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2024.10.31-22.08.46:260][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[s.AsyncLoadingThreadEnabled:1]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[s.EventDrivenLoaderEnabled:1]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[s.UseBackgroundLevelStreaming:1]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2024.10.31-22.08.46:260][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[s.FlushStreamingOnExit:1]]
+[2024.10.31-22.08.46:260][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2024.10.31-22.08.46:260][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2024.10.31-22.08.46:260][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2024.10.31-22.08.46:260][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[gc.FlushStreamingOnGC:0]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[gc.AllowParallelGC:1]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[gc.MaxObjectsInEditor:25165824]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[gc.CreateGCClusters:1]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[gc.MinGCClusterSize:5]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[gc.AssetClustreringEnabled:0]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[gc.ActorClusteringEnabled:0]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[gc.UseDisregardForGCOnDedicatedServers:1]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[gc.VerifyUObjectsAreNotFGCObjects:0]]
+[2024.10.31-22.08.46:260][  0]LogConfig: Set CVar [[gc.GarbageEliminationEnabled:1]]
+[2024.10.31-22.08.46:261][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2024.10.31-22.08.46:261][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2024.10.31-22.08.46:261][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2024.10.31-22.08.46:282][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.FXAA.Quality:4]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.TemporalAA.Quality:2]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.TSR.History.R11G11B10:1]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:200]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:3]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.TSR.Resurrection:1]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-1.5]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.AOQuality:2]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:300]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TracingOctahedronResolution:8]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:1]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.FullResDepth:1]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.HardwareRayTracing:0]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TracingOctahedronResolution:3]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:8]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:200]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.SSR.Quality:3]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:1]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Lumen.Reflections.MaxRoughnessToTraceForFoliage:0.4]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.TonemapStrength:0]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:1]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Enable:0]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.MotionBlurQuality:4]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.EyeAdaptationQuality:2]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.BloomQuality:5]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:50.000]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.FastBlurThreshold:100]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Upscale.Quality:3]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.LightShaftQuality:1]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Filter.SizeScale:1]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.DOF.Gather.ResolutionDivisor:2         ; lower gathering resolution]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Streaming.Boost:1]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.MaxAnisotropy:8]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Streaming.PoolSize:1000]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2024.10.31-22.08.46:282][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2024.10.31-22.08.46:282][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2024.10.31-22.08.46:283][  0]LogConfig: Set CVar [[r.RefractionQuality:2]]
+[2024.10.31-22.08.46:283][  0]LogConfig: Set CVar [[r.SceneColorFormat:4]]
+[2024.10.31-22.08.46:283][  0]LogConfig: Set CVar [[r.DetailMode:3]]
+[2024.10.31-22.08.46:283][  0]LogConfig: Set CVar [[r.TranslucencyVolumeBlur:1]]
+[2024.10.31-22.08.46:283][  0]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2024.10.31-22.08.46:283][  0]LogConfig: Set CVar [[r.SSS.Scale:1]]
+[2024.10.31-22.08.46:283][  0]LogConfig: Set CVar [[r.SSS.SampleSet:2]]
+[2024.10.31-22.08.46:283][  0]LogConfig: Set CVar [[r.SSS.Quality:1]]
+[2024.10.31-22.08.46:283][  0]LogConfig: Set CVar [[r.SSS.HalfRes:0]]
+[2024.10.31-22.08.46:283][  0]LogConfig: Set CVar [[r.SSGI.Quality:3]]
+[2024.10.31-22.08.46:283][  0]LogConfig: Set CVar [[r.EmitterSpawnRateScale:1.0]]
+[2024.10.31-22.08.46:283][  0]LogConfig: Set CVar [[r.ParticleLightQuality:2]]
+[2024.10.31-22.08.46:283][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2024.10.31-22.08.46:283][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2024.10.31-22.08.46:283][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2024.10.31-22.08.46:283][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2024.10.31-22.08.46:283][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2024.10.31-22.08.46:283][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2024.10.31-22.08.46:283][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2024.10.31-22.08.46:283][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2024.10.31-22.08.46:283][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2024.10.31-22.08.46:283][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2024.10.31-22.08.46:283][  0]LogConfig: Set CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2024.10.31-22.08.46:283][  0]LogConfig: Set CVar [[fx.Niagara.QualityLevel:3]]
+[2024.10.31-22.08.46:283][  0]LogConfig: Set CVar [[r.Refraction.OffsetQuality:1]]
+[2024.10.31-22.08.46:283][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2024.10.31-22.08.46:283][  0]LogConfig: Set CVar [[foliage.DensityScale:1.0]]
+[2024.10.31-22.08.46:283][  0]LogConfig: Set CVar [[grass.DensityScale:1.0]]
+[2024.10.31-22.08.46:283][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2024.10.31-22.08.46:283][  0]LogConfig: Set CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2024.10.31-22.08.46:283][  0]LogConfig: Set CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2024.10.31-22.08.46:283][  0]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2024.10.31-22.08.46:283][  0]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+[2024.10.31-22.08.46:283][  0]LogConfig: Applying CVar settings from Section [LandscapeQuality@3] File [Scalability]
+[2024.10.31-22.08.46:283][  0]LogRHI: Using Default RHI: D3D12
+[2024.10.31-22.08.46:283][  0]LogRHI: Using Highest Feature Level of D3D12: SM6
+[2024.10.31-22.08.46:283][  0]LogRHI: Loading RHI module D3D12RHI
+[2024.10.31-22.08.46:287][  0]LogD3D12RHI: Aftermath initialized
+[2024.10.31-22.08.46:287][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+[2024.10.31-22.08.46:287][  0]LogRHI: Checking if RHI D3D12 with Feature Level SM6 is supported by your system.
+[2024.10.31-22.08.46:414][  0]LogD3D12RHI: Found D3D12 adapter 0: AMD Radeon RX 7900 GRE (VendorId: 1002, DeviceId: 744c, SubSysId: 475b1da2, Revision: 00ce
+[2024.10.31-22.08.46:414][  0]LogD3D12RHI:   Max supported Feature Level 12_2, shader model 6.7, binding tier 3, wave ops supported, atomic64 supported
+[2024.10.31-22.08.46:414][  0]LogD3D12RHI:   Adapter has 16306MB of dedicated video memory, 0MB of dedicated system memory, and 16339MB of shared system memory, 2 output[s]
+[2024.10.31-22.08.46:414][  0]LogD3D12RHI:   Driver Version: AMD Software: Adrenalin Edition 24.9.1 (internal:32.0.12011.1036, unified:32.0.12011.1036)
+[2024.10.31-22.08.46:414][  0]LogD3D12RHI:      Driver Date: 9-26-2024
+[2024.10.31-22.08.46:423][  0]LogD3D12RHI: Found D3D12 adapter 1: Microsoft Basic Render Driver (VendorId: 1414, DeviceId: 008c, SubSysId: 0000, Revision: 0000
+[2024.10.31-22.08.46:423][  0]LogD3D12RHI:   Max supported Feature Level 12_1, shader model 6.2, binding tier 3, wave ops supported, atomic64 unsupported
+[2024.10.31-22.08.46:423][  0]LogD3D12RHI:   Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 16339MB of shared system memory, 0 output[s]
+[2024.10.31-22.08.46:423][  0]LogD3D12RHI: DirectX Agility SDK runtime found.
+[2024.10.31-22.08.46:423][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2024.10.31-22.08.46:423][  0]LogRHI: RHI D3D12 with Feature Level SM6 is supported and will be used.
+[2024.10.31-22.08.46:423][  0]LogInit: Selected Device Profile: [Windows]
+[2024.10.31-22.08.46:423][  0]LogHAL: Display: Platform has ~ 32 GB [34266497024 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2024.10.31-22.08.46:423][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2024.10.31-22.08.46:423][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2024.10.31-22.08.46:423][  0]LogConfig: Set CVar [[r.DumpShaderDebugInfo:2]]
+[2024.10.31-22.08.46:423][  0]LogConfig: Set CVar [[r.Shaders.WarningsAsErrors:0 ;; 0: off, 1: global shaders, 2: all]]
+[2024.10.31-22.08.46:423][  0]LogConfig: Set CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2024.10.31-22.08.46:423][  0]LogConfig: Set CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2024.10.31-22.08.46:423][  0]LogConfig: Applying CVar settings from Section [Startup_Windows] File [../../../Engine/Config/ConsoleVariables.ini]
+[2024.10.31-22.08.46:423][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2024.10.31-22.08.46:423][  0]LogConfig: Set CVar [[memory.MemoryPressureCriticalThresholdMB:512]]
+[2024.10.31-22.08.46:423][  0]LogInit: Computer: REDEAGLE
+[2024.10.31-22.08.46:423][  0]LogInit: User: Maxim
+[2024.10.31-22.08.46:423][  0]LogInit: CPU Page size=4096, Cores=8
+[2024.10.31-22.08.46:423][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2024.10.31-22.08.46:966][  0]LogMemory: Process is running as part of a Windows Job with separate resource limits
+[2024.10.31-22.08.46:966][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx) Virtual=49.9GB
+[2024.10.31-22.08.46:966][  0]LogMemory: Platform Memory Stats for Windows
+[2024.10.31-22.08.46:966][  0]LogMemory: Process Physical Memory: 163.16 MB used, 204.47 MB peak
+[2024.10.31-22.08.46:966][  0]LogMemory: Process Virtual Memory: 132.02 MB used, 144.46 MB peak
+[2024.10.31-22.08.46:966][  0]LogMemory: Physical Memory: 17006.16 MB used,  15672.92 MB free, 32679.08 MB total
+[2024.10.31-22.08.46:966][  0]LogMemory: Virtual Memory: 33290.30 MB used,  17820.77 MB free, 51111.08 MB total
+[2024.10.31-22.08.46:966][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2024.10.31-22.08.46:977][  0]LogWindows: WindowsPlatformFeatures enabled
+[2024.10.31-22.08.46:977][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2024.10.31-22.08.46:977][  0]LogInit: Using OS detected language (en-US).
+[2024.10.31-22.08.46:977][  0]LogInit: Using OS detected locale (de-DE).
+[2024.10.31-22.08.46:977][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so 'en' will be used for the language.
+[2024.10.31-22.08.46:978][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the locale.
+[2024.10.31-22.08.47:006][  0]LogWindowsTextInputMethodSystem: Available input methods:
+[2024.10.31-22.08.47:006][  0]LogWindowsTextInputMethodSystem:   - German (Germany) - (Keyboard).
+[2024.10.31-22.08.47:006][  0]LogWindowsTextInputMethodSystem: Activated input method: German (Germany) - (Keyboard).
+[2024.10.31-22.08.47:030][  0]LogSlate: New Slate User Created. Platform User Id 0, User Index 0, Is Virtual User: 0
+[2024.10.31-22.08.47:030][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2024.10.31-22.08.47:061][  0]LogRHI: Using Default RHI: D3D12
+[2024.10.31-22.08.47:061][  0]LogRHI: Using Highest Feature Level of D3D12: SM6
+[2024.10.31-22.08.47:061][  0]LogRHI: Loading RHI module D3D12RHI
+[2024.10.31-22.08.47:061][  0]LogRHI: Checking if RHI D3D12 with Feature Level SM6 is supported by your system.
+[2024.10.31-22.08.47:061][  0]LogRHI: RHI D3D12 with Feature Level SM6 is supported and will be used.
+[2024.10.31-22.08.47:061][  0]LogD3D12RHI: Display: Creating D3D12 RHI with Max Feature Level SM6
+[2024.10.31-22.08.47:061][  0]LogWindows: Attached monitors:
+[2024.10.31-22.08.47:061][  0]LogWindows:     resolution: 1920x1080, work area: (0, 0) -> (1920, 1032), device: '\\.\DISPLAY1' [PRIMARY]
+[2024.10.31-22.08.47:061][  0]LogWindows:     resolution: 1920x1080, work area: (1920, 1) -> (3840, 1033), device: '\\.\DISPLAY2'
+[2024.10.31-22.08.47:061][  0]LogWindows: Found 2 attached monitors.
+[2024.10.31-22.08.47:061][  0]LogWindows: Gathering driver information using Windows Setup API
+[2024.10.31-22.08.47:062][  0]LogRHI: RHI Adapter Info:
+[2024.10.31-22.08.47:062][  0]LogRHI:             Name: AMD Radeon RX 7900 GRE
+[2024.10.31-22.08.47:062][  0]LogRHI:   Driver Version: AMD Software: Adrenalin Edition 24.9.1 (internal:32.0.12011.1036, unified:32.0.12011.1036)
+[2024.10.31-22.08.47:062][  0]LogRHI:      Driver Date: 9-26-2024
+[2024.10.31-22.08.47:062][  0]LogD3D12RHI:     GPU DeviceId: 0x744c (for the marketing name, search the web for "GPU Device Id")
+[2024.10.31-22.08.47:080][  0]LogD3D12RHI: InitD3DDevice: -D3DDebug = off -D3D12GPUValidation = off
+[2024.10.31-22.08.47:080][  0]LogD3D12RHI: [DRED] Dred breadcrumb context enabled
+[2024.10.31-22.08.47:080][  0]LogD3D12RHI: [DRED] Using lightweight DRED.
+[2024.10.31-22.08.47:080][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2024.10.31-22.08.47:164][  0]LogD3D12RHI: ID3D12Device1 is supported.
+[2024.10.31-22.08.47:164][  0]LogD3D12RHI: ID3D12Device2 is supported.
+[2024.10.31-22.08.47:164][  0]LogD3D12RHI: ID3D12Device3 is supported.
+[2024.10.31-22.08.47:164][  0]LogD3D12RHI: ID3D12Device4 is supported.
+[2024.10.31-22.08.47:164][  0]LogD3D12RHI: ID3D12Device5 is supported.
+[2024.10.31-22.08.47:164][  0]LogD3D12RHI: ID3D12Device6 is supported.
+[2024.10.31-22.08.47:164][  0]LogD3D12RHI: ID3D12Device7 is supported.
+[2024.10.31-22.08.47:164][  0]LogD3D12RHI: ID3D12Device8 is supported.
+[2024.10.31-22.08.47:164][  0]LogD3D12RHI: ID3D12Device9 is supported.
+[2024.10.31-22.08.47:164][  0]LogD3D12RHI: ID3D12Device10 is supported.
+[2024.10.31-22.08.47:164][  0]LogD3D12RHI: ID3D12Device11 is supported.
+[2024.10.31-22.08.47:164][  0]LogD3D12RHI: ID3D12Device12 is supported.
+[2024.10.31-22.08.47:164][  0]LogD3D12RHI: Bindless resources are supported
+[2024.10.31-22.08.47:164][  0]LogD3D12RHI: Stencil ref from pixel shader is supported
+[2024.10.31-22.08.47:164][  0]LogD3D12RHI: Raster order views are supported
+[2024.10.31-22.08.47:164][  0]LogD3D12RHI: Wave Operations are supported (wave size: min=32 max=64).
+[2024.10.31-22.08.47:164][  0]LogD3D12RHI: D3D12 ray tracing tier 1.1 and bindless resources are supported.
+[2024.10.31-22.08.47:164][  0]LogD3D12RHI: Mesh shader tier 1.0 is supported
+[2024.10.31-22.08.47:164][  0]LogD3D12RHI: AtomicInt64OnTypedResource is supported
+[2024.10.31-22.08.47:164][  0]LogD3D12RHI: AtomicInt64OnGroupShared is supported
+[2024.10.31-22.08.47:164][  0]LogD3D12RHI: AtomicInt64OnDescriptorHeapResource is supported
+[2024.10.31-22.08.47:164][  0]LogD3D12RHI: Shader Model 6.6 atomic64 is supported
+[2024.10.31-22.08.47:173][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (3D)
+[2024.10.31-22.08.47:173][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Copy)
+[2024.10.31-22.08.47:174][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Compute)
+[2024.10.31-22.08.47:186][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2024.10.31-22.08.47:186][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2024.10.31-22.08.47:186][  0]LogD3D12RHI: AMD hit token extension is supported
+[2024.10.31-22.08.47:186][  0]LogRHI: Texture pool is 9789 MB (70% of 13984 MB)
+[2024.10.31-22.08.47:186][  0]LogD3D12RHI: Async texture creation enabled
+[2024.10.31-22.08.47:186][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2024.10.31-22.08.47:198][  0]LogVRS: Current RHI supports Variable Rate Shading
+[2024.10.31-22.08.47:201][  0]LogInit: Initializing FReadOnlyCVARCache
+[2024.10.31-22.08.47:207][  0]LogRendererCore: Ray tracing is disabled. Reason: disabled through project setting (r.RayTracing=0).
+[2024.10.31-22.08.47:207][  0]LogShaderLibrary: Display: Using IoDispatcher for shader code library Global. Total 4964 unique shaders.
+[2024.10.31-22.08.47:207][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library Global
+[2024.10.31-22.08.47:207][  0]LogShaderLibrary: Display: Logical shader library 'Global' has been created as a monolithic library
+[2024.10.31-22.08.47:207][  0]LogShaderLibrary: Display: Tried to open shader library 'Global_SC', but could not find it neither as a monolithic library nor as a chunked one.
+[2024.10.31-22.08.47:207][  0]LogShaderLibrary: Display: Tried to open shader library 'Paper2D', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:207][  0]LogShaderLibrary: Display: Tried to open shader library 'ACLPlugin', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:207][  0]LogShaderLibrary: Display: Tried to open shader library 'ControlRig', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:207][  0]LogShaderLibrary: Display: Tried to open shader library 'IKRig', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:207][  0]LogShaderLibrary: Display: Tried to open shader library 'ChaosVD', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:207][  0]LogShaderLibrary: Display: Tried to open shader library 'AnimationSharing', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:207][  0]LogShaderLibrary: Display: Tried to open shader library 'Bridge', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:207][  0]LogShaderLibrary: Display: Tried to open shader library 'BlueprintHeaderView', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:207][  0]LogShaderLibrary: Display: Tried to open shader library 'GeometryMode', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:207][  0]LogShaderLibrary: Display: Tried to open shader library 'ControlRigModules', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:207][  0]LogShaderLibrary: Display: Tried to open shader library 'SpeedTreeImporter', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:207][  0]LogShaderLibrary: Display: Tried to open shader library 'ControlRigSpline', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:207][  0]LogShaderLibrary: Display: Tried to open shader library 'ChaosCaching', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:207][  0]LogShaderLibrary: Display: Tried to open shader library 'UVEditor', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:207][  0]LogShaderLibrary: Display: Tried to open shader library 'ChaosNiagara', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:207][  0]LogShaderLibrary: Display: Tried to open shader library 'FullBodyIK', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:207][  0]LogShaderLibrary: Display: Tried to open shader library 'MetaHumanProjectUtilities', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:207][  0]LogShaderLibrary: Display: Tried to open shader library 'GameplayCameras', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:207][  0]LogShaderLibrary: Display: Tried to open shader library 'LightMixer', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:207][  0]LogShaderLibrary: Display: Tried to open shader library 'GeometryCollectionPlugin', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:207][  0]LogShaderLibrary: Display: Tried to open shader library 'PythonScriptPlugin', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:207][  0]LogShaderLibrary: Display: Tried to open shader library 'ObjectMixer', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:207][  0]LogShaderLibrary: Display: Tried to open shader library 'MediaCompositing', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:208][  0]LogShaderLibrary: Display: Tried to open shader library 'Metasound', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:208][  0]LogShaderLibrary: Display: Tried to open shader library 'DatasmithContent', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:208][  0]LogShaderLibrary: Display: Tried to open shader library 'ChaosSolverPlugin', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:208][  0]LogShaderLibrary: Display: Tried to open shader library 'SequencerScripting', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:208][  0]LogShaderLibrary: Display: Tried to open shader library 'ResonanceAudio', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:208][  0]LogShaderLibrary: Display: Tried to open shader library 'MediaPlate', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:208][  0]LogShaderLibrary: Display: Tried to open shader library 'AudioSynesthesia', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:208][  0]LogShaderLibrary: Display: Tried to open shader library 'RigVM', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:208][  0]LogShaderLibrary: Display: Tried to open shader library 'GLTFExporter', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:208][  0]LogShaderLibrary: Display: Tried to open shader library 'Dataflow', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:208][  0]LogShaderLibrary: Display: Tried to open shader library 'AudioWidgets', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:208][  0]LogShaderLibrary: Display: Tried to open shader library 'Synthesis', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:208][  0]LogShaderLibrary: Display: Tried to open shader library 'Niagara', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:208][  0]LogShaderLibrary: Display: Tried to open shader library 'GeometryProcessing', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:208][  0]LogShaderLibrary: Display: Tried to open shader library 'Interchange', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:208][  0]LogShaderLibrary: Display: Tried to open shader library 'Takes', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:208][  0]LogShaderLibrary: Display: Tried to open shader library 'WaveTable', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:208][  0]LogShaderLibrary: Display: Tried to open shader library 'TraceUtilities', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:208][  0]LogShaderLibrary: Display: Tried to open shader library 'ToolPresets', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:208][  0]LogShaderLibrary: Display: Tried to open shader library 'NiagaraSimCaching', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:208][  0]LogTemp: Display: Clearing the OS Cache
+[2024.10.31-22.08.47:212][  0]LogInit: FStereoShaderAspects: --- StereoAspects begin ---
+[2024.10.31-22.08.47:212][  0]LogInit: FStereoShaderAspects: Platform=PCD3D_SM6 (49)
+[2024.10.31-22.08.47:212][  0]LogInit: FStereoShaderAspects: bInstancedStereo = 0
+[2024.10.31-22.08.47:212][  0]LogInit: FStereoShaderAspects: bMobilePlatform = 0
+[2024.10.31-22.08.47:212][  0]LogInit: FStereoShaderAspects: bMobilePostprocessing = 1
+[2024.10.31-22.08.47:212][  0]LogInit: FStereoShaderAspects: bMobileMultiView = 0
+[2024.10.31-22.08.47:212][  0]LogInit: FStereoShaderAspects: bMultiViewportCapable = 1
+[2024.10.31-22.08.47:212][  0]LogInit: FStereoShaderAspects: bInstancedStereoNative = 0
+[2024.10.31-22.08.47:212][  0]LogInit: FStereoShaderAspects: ---
+[2024.10.31-22.08.47:212][  0]LogInit: FStereoShaderAspects: bMobileMultiViewCoreSupport = 0
+[2024.10.31-22.08.47:212][  0]LogInit: FStereoShaderAspects: bMobileMultiViewNative = 0
+[2024.10.31-22.08.47:212][  0]LogInit: FStereoShaderAspects: bMobileMultiViewFallback = 0
+[2024.10.31-22.08.47:212][  0]LogInit: FStereoShaderAspects: ---
+[2024.10.31-22.08.47:212][  0]LogInit: FStereoShaderAspects: bInstancedMultiViewportEnabled = 0
+[2024.10.31-22.08.47:212][  0]LogInit: FStereoShaderAspects: bInstancedStereoEnabled = 0
+[2024.10.31-22.08.47:212][  0]LogInit: FStereoShaderAspects: bMobileMultiViewEnabled = 0
+[2024.10.31-22.08.47:212][  0]LogInit: FStereoShaderAspects: --- StereoAspects end ---
+[2024.10.31-22.08.47:215][  0]LogInit: XR: Instanced Stereo Rendering is Disabled
+[2024.10.31-22.08.47:216][  0]LogInit: XR: MultiViewport is Disabled
+[2024.10.31-22.08.47:216][  0]LogInit: XR: Mobile Multiview is Disabled
+[2024.10.31-22.08.47:217][  0]LogSlate: Using FreeType 2.10.0
+[2024.10.31-22.08.47:217][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2024.10.31-22.08.47:341][  0]LogShaderLibrary: Display: Tried to open shader library 'Paper2D', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:341][  0]LogShaderLibrary: Display: Tried to open shader library 'ACLPlugin', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:341][  0]LogShaderLibrary: Display: Tried to open shader library 'ControlRigModules', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:341][  0]LogShaderLibrary: Display: Tried to open shader library 'ControlRigSpline', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:341][  0]LogShaderLibrary: Display: Tried to open shader library 'ControlRig', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:341][  0]LogShaderLibrary: Display: Tried to open shader library 'IKRig', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:341][  0]LogShaderLibrary: Display: Tried to open shader library 'Bridge', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:341][  0]LogShaderLibrary: Display: Tried to open shader library 'GameplayCameras', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:341][  0]LogShaderLibrary: Display: Tried to open shader library 'ChaosVD', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'AnimationSharing', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'BlueprintHeaderView', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'GeometryMode', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'LightMixer', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'ObjectMixer', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'SpeedTreeImporter', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'UVEditor', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'DatasmithContent', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'GLTFExporter', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'ChaosCaching', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'ChaosNiagara', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'ChaosSolverPlugin', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'Dataflow', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'FullBodyIK', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'GeometryCollectionPlugin', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'MetaHumanProjectUtilities', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'PythonScriptPlugin', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'ToolPresets', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'NiagaraSimCaching', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'Niagara', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'Interchange', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'MediaCompositing', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'MediaPlate', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'SequencerScripting', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'AudioSynesthesia', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'AudioWidgets', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'GeometryProcessing', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'Metasound', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'ResonanceAudio', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'RigVM', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'Synthesis', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'WaveTable', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'TraceUtilities', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:342][  0]LogShaderLibrary: Display: Tried to open shader library 'Takes', but could not find it (only tried to open it as a monolithic library).
+[2024.10.31-22.08.47:343][  0]LogShaderLibrary: Display: Using IoDispatcher for shader code library GOAP_5_4. Total 2988 unique shaders.
+[2024.10.31-22.08.47:343][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library GOAP_5_4
+[2024.10.31-22.08.47:343][  0]LogShaderLibrary: Display: Logical shader library 'GOAP_5_4' has been created as a monolithic library
+[2024.10.31-22.08.47:343][  0]LogRHI: Could not open FPipelineCacheFile: ../../../GOAP_5_4/Content/PipelineCaches/Windows/GOAP_5_4_PCD3D_SM6.stable.upipelinecache
+[2024.10.31-22.08.47:343][  0]LogRHI: Could not open FPipelineCacheFile: ../../../GOAP_5_4/Content/PipelineCaches/Windows/GOAP_5_4_PCD3D_SM6.stable.upipelinecache
+[2024.10.31-22.08.47:343][  0]LogShaderLibrary: Display: Tried to open again shader library 'GOAP_5_4', but could not find new components for it (existing components: 1).
+[2024.10.31-22.08.47:343][  0]LogRHI: Could not open FPipelineCacheFile: ../../../GOAP_5_4/Content/PipelineCaches/Windows/GOAP_5_4_PCD3D_SM6.stable.upipelinecache
+[2024.10.31-22.08.47:343][  0]LogInit: Using OS detected language (en-US).
+[2024.10.31-22.08.47:343][  0]LogInit: Using OS detected locale (de-DE).
+[2024.10.31-22.08.47:343][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2024.10.31-22.08.47:343][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the locale.
+[2024.10.31-22.08.47:343][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2024.10.31-22.08.47:451][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2024.10.31-22.08.47:454][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2024.10.31-22.08.47:454][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2024.10.31-22.08.47:456][  0]LogDeviceProfileManager: Active device profile: [000001F128DB8080][000001F1241924A0 66] Windows
+[2024.10.31-22.08.47:456][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="Windows"
+[2024.10.31-22.08.47:487][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+[2024.10.31-22.08.47:488][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2024.10.31-22.08.47:488][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2024.10.31-22.08.47:531][  0]LogPackageLocalizationCache: Processed 45 localized package path(s) for 1 prioritized culture(s) in 0.000089 seconds
+[2024.10.31-22.08.47:549][  0]LogShaderLibrary: Warning: Spent 4.50 ms in a blocking wait for shader preload, NumRefs: 16, FramePreloadStarted: 1, CurrentFrame: 1
+[2024.10.31-22.08.47:572][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2024.10.31-22.08.47:572][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2024.10.31-22.08.47:581][  0]LogMoviePlayer: Initializing movie player
+[2024.10.31-22.08.47:583][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: FEA7350749EA417D8000000000000100 | Instance: 868700FD4235087EDF829EB3FD6F2A5F (REDEAGLE-26132).
+[2024.10.31-22.08.47:604][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2024.10.31-22.08.47:604][  0]LogMetasoundEngine: MetaSound Engine Initialized
+[2024.10.31-22.08.47:606][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2024.10.31-22.08.47:606][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Runtime/AudioWidgets/Content/Resources/ScrubHandleDown_Clamped.png' error.
+[2024.10.31-22.08.47:606][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Runtime/AudioWidgets/Content/Resources/ScrubHandleDown_Clamped.png
+[2024.10.31-22.08.47:612][  0]LogUObjectArray: 26387 objects as part of root set at end of initial load.
+[2024.10.31-22.08.47:612][  0]LogUObjectArray: 408 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
+[2024.10.31-22.08.47:613][  0]LogUObjectAllocator: 5869088 out of 0 bytes used by permanent object pool.
+[2024.10.31-22.08.47:613][  0]LogUObjectArray: CloseDisregardForGC: 26387/26387 objects in disregard for GC pool
+[2024.10.31-22.08.47:620][  0]LogStreaming: Display: AsyncLoading2 - NotifyRegistrationComplete: Registered 24985 public script object entries (656.00 KB)
+[2024.10.31-22.08.47:620][  0]LogStreaming: Display: AsyncLoading2 - Thread Started: true, IsInitialLoad: false
+[2024.10.31-22.08.47:621][  0]LogEngine: Initializing Engine...
+[2024.10.31-22.08.47:622][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2024.10.31-22.08.47:627][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2024.10.31-22.08.47:627][  0]LogInit: Texture streaming: Enabled
+[2024.10.31-22.08.47:627][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2024.10.31-22.08.47:627][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2024.10.31-22.08.47:627][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2024.10.31-22.08.47:628][  0]LogAudio: Display: AudioInfo: 'OPUS' Registered
+[2024.10.31-22.08.47:639][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2024.10.31-22.08.47:639][  0]LogAudio: Display: AudioInfo: 'OGG' Registered
+[2024.10.31-22.08.47:639][  0]LogAudio: Display: AudioInfo: 'ADPCM' Registered
+[2024.10.31-22.08.47:639][  0]LogAudio: Display: AudioInfo: 'PCM' Registered
+[2024.10.31-22.08.47:639][  0]LogAudio: Display: AudioInfo: 'BINKA' Registered
+[2024.10.31-22.08.47:639][  0]LogAudio: Display: AudioInfo: 'RADA' Registered
+[2024.10.31-22.08.47:639][  0]LogAudio: Display: Audio Device Manager Initialized
+[2024.10.31-22.08.47:639][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2024.10.31-22.08.47:639][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.31-22.08.47:639][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.31-22.08.47:639][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.31-22.08.47:639][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.31-22.08.47:639][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.31-22.08.47:639][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.31-22.08.47:639][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.31-22.08.47:639][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.31-22.08.47:639][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.31-22.08.47:639][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.31-22.08.47:639][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.31-22.08.47:645][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.31-22.08.48:802][  0]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (Realtek(R) Audio)
+[2024.10.31-22.08.48:803][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.31-22.08.48:803][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.31-22.08.48:803][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.31-22.08.48:804][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2024.10.31-22.08.48:804][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=1
+[2024.10.31-22.08.48:804][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.10.31-22.08.48:804][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2024.10.31-22.08.48:804][  0]LogInit: FAudioDevice initialized with ID 1.
+[2024.10.31-22.08.48:804][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 1
+[2024.10.31-22.08.48:806][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2024.10.31-22.08.48:811][  0]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.10.31-22.08.48:813][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2024.10.31-22.08.48:814][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.31-22.08.48:814][  0]LogInit: Display: Game Engine Initialized.
+[2024.10.31-22.08.48:815][  0]LogInit: Display: Starting Game.
+[2024.10.31-22.08.48:815][  0]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/ThirdPersonMap?Name=Player"
+[2024.10.31-22.08.48:815][  0]LogNet: Browse: /Game/ThirdPerson/Maps/ThirdPersonMap?Name=Player
+[2024.10.31-22.08.48:815][  0]LogLoad: LoadMap: /Game/ThirdPerson/Maps/ThirdPersonMap?Name=Player
+[2024.10.31-22.08.48:816][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2024.10.31-22.08.48:816][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2024.10.31-22.08.48:816][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.31-22.08.48:816][  0]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.10.31-22.08.48:816][  0]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.10.31-22.08.48:818][  0]LogStreaming: Display: 0.000 ms for processing 39 objects in RemoveUnreachableObjects(Queued=0, Async=0). Removed 0 (204->204) packages and 0 (368->368) public exports.
+[2024.10.31-22.08.48:818][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.31-22.08.48:819][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.10.31-22.08.48:821][  0]LogRHI: Display: Encountered a new compute PSO: 1985946213
+[2024.10.31-22.08.48:822][  0]LogRHI: Display: Encountered a new compute PSO: 1428619795
+[2024.10.31-22.08.48:822][  0]LogRHI: Display: Encountered a new compute PSO: 4063335720
+[2024.10.31-22.08.48:830][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonMap'.
+[2024.10.31-22.08.48:830][  0]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.10.31-22.08.48:830][  0]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.31-22.08.48:830][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.31-22.08.48:830][  0]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap, World Type = Game, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 1, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.31-22.08.48:830][  0]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.31-22.08.48:830][  0]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new container.
+[2024.10.31-22.08.48:830][  0]LogWorldPartition: Display: WorldPartition initialize took 77 us
+[2024.10.31-22.08.48:832][  0]LogLoad: Game class is 'GOAP_5_4GameMode'
+[2024.10.31-22.08.48:840][  0]LogWorld: Bringing World /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.10.31-23.08.48
+[2024.10.31-22.08.48:841][  0]LogWorld: Bringing up level for play took: 0.009161
+[2024.10.31-22.08.48:845][  0]LogActor: Warning: BlueTool_BP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BlueTool_BP_C_2147482454 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.10.31-22.08.48:845][  0]LogActor: Warning: BlueTool_BP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BlueTool_BP_C_2147482452 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.10.31-22.08.48:845][  0]LogActor: Warning: BlueTool_BP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BlueTool_BP_C_2147482451 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.10.31-22.08.48:845][  0]LogActor: Warning: BlueTool_BP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BlueTool_BP_C_2147482450 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.10.31-22.08.48:845][  0]LogActor: Warning: BlueTool_BP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BlueTool_BP_C_2147482449 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.10.31-22.08.48:846][  0]LogActor: Warning: BlueTool_BP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BlueTool_BP_C_2147482448 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.10.31-22.08.48:846][  0]LogActor: Warning: BlueTool_BP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BlueTool_BP_C_2147482447 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.10.31-22.08.48:846][  0]LogActor: Warning: BlueTool_BP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BlueTool_BP_C_2147482446 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.10.31-22.08.48:846][  0]LogActor: Warning: BlueTool_BP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BlueTool_BP_C_2147482445 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.10.31-22.08.48:846][  0]LogActor: Warning: BlueTool_BP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BlueTool_BP_C_2147482444 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.10.31-22.08.48:846][  0]LogActor: Warning: BlueTool_BP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BlueTool_BP_C_2147482443 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.10.31-22.08.48:846][  0]LogActor: Warning: BlueTool_BP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BlueTool_BP_C_2147482442 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.10.31-22.08.48:847][  0]LogActor: Warning: BlueTool_BP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BlueTool_BP_C_2147482441 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.10.31-22.08.48:847][  0]LogActor: Warning: BlueTool_BP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BlueTool_BP_C_2147482440 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.10.31-22.08.48:847][  0]LogActor: Warning: BlueTool_BP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BlueTool_BP_C_2147482439 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.10.31-22.08.48:847][  0]LogActor: Warning: BlueTool_BP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BlueTool_BP_C_2147482438 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.10.31-22.08.48:847][  0]LogActor: Warning: BlueTool_BP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BlueTool_BP_C_2147482437 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.10.31-22.08.48:849][  0]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.10.31-22.08.48:849][  0]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.10.31-22.08.48:866][  0]LogRHI: Display: Encountered a new graphics PSO: 553144757
+[2024.10.31-22.08.48:866][  0]LogRHI: Display: Encountered a new graphics PSO: 1480385642
+[2024.10.31-22.08.48:884][  0]LogLoad: Took 0.069137 seconds to LoadMap(/Game/ThirdPerson/Maps/ThirdPersonMap)
+[2024.10.31-22.08.48:884][  0]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Maps/ThirdPersonMap
+[2024.10.31-22.08.48:884][  0]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoBold.ufont' (160K)
+[2024.10.31-22.08.48:964][  0]LogSlate: Took 0.000446 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.10.31-22.08.49:041][  0]LogRHI: Display: ShaderPipelineCache: Paused Batching. 1
+[2024.10.31-22.08.49:041][  0]LogPakFile: AllPaks IndexSizes: DirectoryHashSize=177824, PathHashSize=16, EntriesSize=21840, TotalSize=199680
+[2024.10.31-22.08.49:041][  0]LogRHI: Display: ShaderPipelineCache: Resumed Batching. 0
+[2024.10.31-22.08.49:041][  0]LogRHI: Display: ShaderPipelineCache: Batching Resumed.
+[2024.10.31-22.08.49:043][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2024.10.31-22.08.49:043][  0]LogLoad: (Engine Initialization) Total time: 3.01 seconds
+[2024.10.31-22.08.49:161][  0]LogRHI: Display: Encountered a new compute PSO: 887160226
+[2024.10.31-22.08.49:161][  0]LogRHI: Display: Encountered a new compute PSO: 4188668841
+[2024.10.31-22.08.49:161][  0]LogRHI: Display: Encountered a new compute PSO: 4069030907
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 494056535
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 1652774016
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 3297599506
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new graphics PSO: 2484791650
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 2542146506
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 3754715797
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 1348206663
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 1007839207
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 3627982281
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 1777824844
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 3566711538
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 3639143891
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 2584459113
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 3066176302
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 3360714959
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 2519149830
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 1363446119
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 280937883
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 3041469007
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 2653795298
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 3978336390
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 3418614417
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 1611279799
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 4008270323
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 895717398
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 826317088
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 1591036916
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 1694489413
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 3763081940
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 3016901838
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 513585254
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new graphics PSO: 2568782683
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 330455827
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 2295133629
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 1455127091
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new graphics PSO: 94626695
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 3190293944
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 1702048833
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 3174137632
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new graphics PSO: 3093059691
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 270823884
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 1289095396
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 2667278406
+[2024.10.31-22.08.49:162][  0]LogRHI: Display: Encountered a new compute PSO: 985041011
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 3463999945
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 2436165591
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 549472865
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 763078999
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 1437865455
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 523144441
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new graphics PSO: 1921264463
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 3050143469
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 1744009190
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 573531027
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 3841928732
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 3403543807
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 2386476037
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 1501249235
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 98092841
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 2714542174
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 3262353171
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 784915708
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 3247850357
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 318487199
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 399000462
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 4250821254
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new graphics PSO: 181843231
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 3204070436
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 2782119393
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 2321745495
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 2949661837
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 1522353498
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new graphics PSO: 3121995136
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new graphics PSO: 837054243
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 465167997
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new graphics PSO: 1335924234
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 3058408464
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 3496187278
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 766098805
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 991035869
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 78052408
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new graphics PSO: 3168253370
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 3500427752
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 1075335404
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 2819046710
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 2202713512
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 3847467701
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 2604038546
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 979257987
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 3648397297
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 320118913
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 810985881
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 3313584943
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 2662265326
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 2269158753
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 2976825142
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new graphics PSO: 3931089242
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 3098587744
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 3032915879
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 2484482707
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 3774044442
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 3885016037
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 3880928867
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 4209213404
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new graphics PSO: 3240984411
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 2768889431
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 1419963234
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 434158337
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 442271061
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new graphics PSO: 529456739
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 2862425656
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 755079178
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 59440112
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new graphics PSO: 3223217933
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 1446261480
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new compute PSO: 4065620706
+[2024.10.31-22.08.49:163][  0]LogRHI: Display: Encountered a new graphics PSO: 3764407868
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 1353665459
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 3302992009
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 2097877857
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new graphics PSO: 3326563945
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 3578567352
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 879610852
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 26330889
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 323560463
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 592143029
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 800230722
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new graphics PSO: 1458302147
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 2830592730
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 2779775670
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 3579573254
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 4234769915
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 252931312
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 2859198647
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 2685865197
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 576365864
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 3623980716
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 646753278
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 1898467462
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 2694420152
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 3103787047
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 749885569
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new graphics PSO: 3366029367
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 4088744801
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 1814902648
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 941453398
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 1522806220
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 2049184558
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new graphics PSO: 1592757484
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new graphics PSO: 719972205
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new graphics PSO: 376198962
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 3706535115
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 2188627990
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new graphics PSO: 1290424623
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new graphics PSO: 4219211247
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 788782481
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new graphics PSO: 3163799439
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new graphics PSO: 4150127533
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 890068366
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 2150718415
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 4115464419
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 805902417
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 724469417
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 1010582865
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 3436880592
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 2459225561
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 3719113342
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new graphics PSO: 1555456529
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 493500548
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 1842494833
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 1793237987
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 348153731
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 4118917456
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new graphics PSO: 2250920135
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 2630815617
+[2024.10.31-22.08.49:164][  0]LogRHI: Display: Encountered a new compute PSO: 1414181958
+[2024.10.31-22.08.49:166][  0]LogRHI: Display: Encountered a new compute PSO: 561567515
+[2024.10.31-22.08.49:166][  0]LogRHI: Display: Encountered a new compute PSO: 106794541
+[2024.10.31-22.08.49:166][  0]LogRHI: Display: Encountered a new graphics PSO: 1454705710
+[2024.10.31-22.08.49:166][  0]LogRHI: Display: Encountered a new graphics PSO: 2564836664
+[2024.10.31-22.08.49:166][  0]LogRHI: Display: Encountered a new graphics PSO: 1829824113
+[2024.10.31-22.08.49:166][  0]LogRHI: Display: Encountered a new graphics PSO: 1476529720
+[2024.10.31-22.08.49:166][  0]LogRHI: Display: Encountered a new graphics PSO: 1101455091
+[2024.10.31-22.08.49:166][  0]LogRHI: Display: Encountered a new graphics PSO: 3948617389
+[2024.10.31-22.08.49:166][  0]LogRHI: Display: Encountered a new graphics PSO: 1832972510
+[2024.10.31-22.08.49:166][  0]LogRHI: Display: Encountered a new compute PSO: 4049005248
+[2024.10.31-22.08.49:166][  0]LogRHI: Display: Encountered a new graphics PSO: 3962325605
+[2024.10.31-22.08.49:166][  0]LogRHI: Display: Encountered a new graphics PSO: 2599242744
+[2024.10.31-22.08.49:166][  0]LogRHI: Display: Encountered a new graphics PSO: 1070760924
+[2024.10.31-22.08.49:167][  0]LogRHI: Display: Encountered a new graphics PSO: 3392940474
+[2024.10.31-22.08.49:167][  0]LogRHI: Display: Encountered a new compute PSO: 3532654478
+[2024.10.31-22.08.49:167][  0]LogRHI: Display: Encountered a new compute PSO: 3223131886
+[2024.10.31-22.08.49:167][  0]LogRHI: Display: Encountered a new compute PSO: 3092716485
+[2024.10.31-22.08.49:167][  0]LogRHI: Display: Encountered a new graphics PSO: 609465502
+[2024.10.31-22.08.49:170][  0]LogRHI: Display: Encountered a new compute PSO: 3188965164
+[2024.10.31-22.08.49:171][  0]LogRHI: Display: Encountered a new graphics PSO: 2475715365
+[2024.10.31-22.08.49:171][  0]LogRHI: Display: Encountered a new graphics PSO: 1643745389
+[2024.10.31-22.08.49:171][  0]LogRHI: Display: Encountered a new graphics PSO: 778230803
+[2024.10.31-22.08.49:171][  0]LogRHI: Display: Encountered a new graphics PSO: 503311967
+[2024.10.31-22.08.49:171][  0]LogRHI: Display: Encountered a new graphics PSO: 2839617201
+[2024.10.31-22.08.49:171][  0]LogRHI: Display: Encountered a new graphics PSO: 448139517
+[2024.10.31-22.08.49:213][  0]LogRHI: Display: Encountered a new compute PSO: 3548587239
+[2024.10.31-22.08.49:228][  0]LogRHI: Display: Encountered a new graphics PSO: 1284562869
+[2024.10.31-22.08.49:230][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.31-22.08.49:232][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2024.10.31-22.08.49:232][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="1000"
+[2024.10.31-22.08.49:269][  1]LogRHI: Display: Encountered a new compute PSO: 1612619848
+[2024.10.31-22.08.49:269][  1]LogRHI: Display: Encountered a new compute PSO: 1957116234
+[2024.10.31-22.08.49:269][  1]LogRHI: Display: Encountered a new compute PSO: 154047005
+[2024.10.31-22.08.49:269][  1]LogRHI: Display: Encountered a new compute PSO: 2563737198
+[2024.10.31-22.08.49:269][  1]LogRHI: Display: Encountered a new compute PSO: 815451083
+[2024.10.31-22.08.49:269][  1]LogRHI: Display: Encountered a new compute PSO: 3670747072
+[2024.10.31-22.08.49:269][  1]LogRHI: Display: Encountered a new compute PSO: 3207791241
+[2024.10.31-22.08.49:269][  1]LogRHI: Display: Encountered a new graphics PSO: 1274080090
+[2024.10.31-22.08.49:269][  1]LogRHI: Display: Encountered a new compute PSO: 2511717775
+[2024.10.31-22.08.49:269][  1]LogRHI: Display: Encountered a new compute PSO: 1652716547
+[2024.10.31-22.08.49:269][  1]LogRHI: Display: Encountered a new compute PSO: 901416563
+[2024.10.31-22.08.49:270][  1]LogRHI: Display: Encountered a new compute PSO: 1629504702
+[2024.10.31-22.08.49:270][  1]LogRHI: Display: Encountered a new graphics PSO: 296283638
+[2024.10.31-22.08.49:270][  1]LogRHI: Display: Encountered a new graphics PSO: 837792654
+[2024.10.31-22.08.49:270][  1]LogRHI: Display: Encountered a new compute PSO: 1015010046
+[2024.10.31-22.08.49:270][  1]LogRHI: Display: Encountered a new compute PSO: 1402352343
+[2024.10.31-22.08.49:270][  1]LogRHI: Display: Encountered a new compute PSO: 797405437
+[2024.10.31-22.08.49:294][  2]LogRHI: Display: Encountered a new compute PSO: 3015691848
+[2024.10.31-22.08.49:294][  2]LogRHI: Display: Encountered a new compute PSO: 3851300607
+[2024.10.31-22.08.49:294][  2]LogRHI: Display: Encountered a new compute PSO: 4125810004
+[2024.10.31-22.08.49:294][  2]LogRHI: Display: Encountered a new compute PSO: 25799498
+[2024.10.31-22.08.49:294][  2]LogRHI: Display: Encountered a new compute PSO: 3953088470
+[2024.10.31-22.08.49:294][  2]LogRHI: Display: Encountered a new compute PSO: 870980173
+[2024.10.31-22.08.49:294][  2]LogRHI: Display: Encountered a new compute PSO: 3561037973
+[2024.10.31-22.08.49:294][  2]LogRHI: Display: Encountered a new compute PSO: 1322516561
+[2024.10.31-22.08.49:294][  2]LogRHI: Display: Encountered a new compute PSO: 2907807209
+[2024.10.31-22.08.49:294][  2]LogRHI: Display: Encountered a new compute PSO: 4242974518
+[2024.10.31-22.08.49:294][  2]LogRHI: Display: Encountered a new compute PSO: 1401519718
+[2024.10.31-22.08.49:294][  2]LogRHI: Display: Encountered a new compute PSO: 3292568173
+[2024.10.31-22.08.49:294][  2]LogRHI: Display: Encountered a new compute PSO: 2587087033
+[2024.10.31-22.08.49:294][  2]LogRHI: Display: Encountered a new compute PSO: 4148543444
+[2024.10.31-22.08.49:294][  2]LogRHI: Display: Encountered a new compute PSO: 928063994
+[2024.10.31-22.08.49:294][  2]LogRHI: Display: Encountered a new graphics PSO: 104822522
+[2024.10.31-22.08.49:294][  2]LogRHI: Display: Encountered a new graphics PSO: 2443642255
+[2024.10.31-22.08.49:294][  2]LogRHI: Display: Encountered a new graphics PSO: 2857564543
+[2024.10.31-22.08.49:294][  2]LogRHI: Display: Encountered a new graphics PSO: 1577009753
+[2024.10.31-22.08.49:294][  2]LogRHI: Display: Encountered a new graphics PSO: 4173367933
+[2024.10.31-22.08.49:294][  2]LogRHI: Display: Encountered a new graphics PSO: 3812736319
+[2024.10.31-22.08.49:294][  2]LogRHI: Display: Encountered a new graphics PSO: 2293407659
+[2024.10.31-22.08.49:294][  2]LogRHI: Display: Encountered a new graphics PSO: 3634157506
+[2024.10.31-22.08.49:294][  2]LogRHI: Display: Encountered a new graphics PSO: 2449073506
+[2024.10.31-22.08.49:294][  2]LogRHI: Display: Encountered a new graphics PSO: 263422358
+[2024.10.31-22.08.49:295][  2]LogRHI: Display: Encountered a new graphics PSO: 964239923
+[2024.10.31-22.08.49:295][  2]LogRHI: Display: Encountered a new graphics PSO: 904233685
+[2024.10.31-22.08.49:311][  3]LogRHI: Display: Encountered a new compute PSO: 266117204
+[2024.10.31-22.08.58:903][824]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482445
+[2024.10.31-22.08.58:941][832]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482454
+[2024.10.31-22.08.58:945][833]LogTemp: Warning: Sphere Overlap Begin: GoldTool_BP_C_UAID_F02F74239C3D4E1002_1579257121
+[2024.10.31-22.09.02:301][526]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482454
+[2024.10.31-22.09.02:406][547]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482445
+[2024.10.31-22.09.02:602][588]LogTemp: Warning: Sphere Overlap Begin: GoldTool_BP_C_UAID_F02F74239C3D4E1002_1579257121
+[2024.10.31-22.09.04:438][951]LogTemp: Warning: Sphere Overlap Begin: GoldTool_BP_C_UAID_F02F74239C3D4E1002_1579257121
+[2024.10.31-22.09.07:462][537]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482445
+[2024.10.31-22.09.07:597][562]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482454
+[2024.10.31-22.09.08:287][698]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482454
+[2024.10.31-22.09.08:445][729]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482445
+[2024.10.31-22.09.13:689][745]LogRHI: Display: Encountered a new graphics PSO: 337336249
+[2024.10.31-22.09.13:982][800]LogTemp: Warning: Sphere Overlap Begin: GoldTool_BP_C_UAID_F02F74239C3D4E1002_1579257121
+[2024.10.31-22.09.15:268][ 35]LogRHI: Display: Encountered a new graphics PSO: 4164099296
+[2024.10.31-22.09.15:268][ 35]LogRHI: Display: Encountered a new graphics PSO: 2463144962
+[2024.10.31-22.09.15:268][ 35]LogRHI: Display: Encountered a new graphics PSO: 1732082341
+[2024.10.31-22.09.15:269][ 35]LogRHI: Display: Encountered a new graphics PSO: 1657494075
+[2024.10.31-22.09.15:269][ 35]LogRHI: Display: Encountered a new graphics PSO: 3256826926
+[2024.10.31-22.09.15:269][ 35]LogRHI: Display: Encountered a new graphics PSO: 2286839283
+[2024.10.31-22.09.15:428][ 67]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482454
+[2024.10.31-22.09.16:559][297]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482454
+[2024.10.31-22.09.16:849][355]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_2147482460] -0.000018
+[2024.10.31-22.09.16:849][355]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_2147482460] 1235.155284
+[2024.10.31-22.09.16:849][355]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_2147482460] 1017.059236
+[2024.10.31-22.09.17:258][437]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482445
+[2024.10.31-22.09.17:272][440]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482454
+[2024.10.31-22.09.17:446][475]LogTemp: Warning: Sphere Overlap Begin: GoldTool_BP_C_UAID_F02F74239C3D4E1002_1579257121
+[2024.10.31-22.09.17:580][502]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1891677467
+[2024.10.31-22.09.17:580][502]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1891675466
+[2024.10.31-22.09.17:584][503]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1891679469
+[2024.10.31-22.09.17:589][504]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1891673464
+[2024.10.31-22.09.17:617][510]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1891674465
+[2024.10.31-22.09.17:627][512]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1891678468
+[2024.10.31-22.09.17:683][523]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1891669462
+[2024.10.31-22.09.17:724][531]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1897798471
+[2024.10.31-22.09.17:768][540]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1891671463
+[2024.10.31-22.09.17:863][559]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482446
+[2024.10.31-22.09.17:879][562]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1871470460
+[2024.10.31-22.09.17:986][584]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482452
+[2024.10.31-22.09.18:000][587]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1871473461
+[2024.10.31-22.09.18:014][590]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1365116699
+[2024.10.31-22.09.18:024][592]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D251D02_1133103673
+[2024.10.31-22.09.18:045][596]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3DBB1D02_1590761031
+[2024.10.31-22.09.18:045][596]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D251D02_1133105674
+[2024.10.31-22.09.18:077][603]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1281793698
+[2024.10.31-22.09.18:137][615]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1809184458
+[2024.10.31-22.09.18:146][617]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1281791697
+[2024.10.31-22.09.18:230][634]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D251D02_1133098669
+[2024.10.31-22.09.18:395][667]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3DBB1D02_1604538032
+[2024.10.31-22.09.18:425][673]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482450
+[2024.10.31-22.09.18:425][673]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1809187459
+[2024.10.31-22.09.18:493][687]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D251D02_1133099670
+[2024.10.31-22.09.18:551][699]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3DBB1D02_1612399033
+[2024.10.31-22.09.18:557][700]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482451
+[2024.10.31-22.09.18:595][708]LogTemp: Warning: Overlap Begin: BP_CustomAIChar_C_UAID_F02F74239C3D701902_1302002607
+[2024.10.31-22.09.18:595][708]LogTemp: Warning: Overlap End: BP_CustomAIChar_C_UAID_F02F74239C3D701902_1302002607
+[2024.10.31-22.09.18:595][708]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482454
+[2024.10.31-22.09.18:641][717]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1897795470
+[2024.10.31-22.09.18:920][773]LogRHI: Display: Encountered a new graphics PSO: 1843411390
+[2024.10.31-22.09.20:730][140]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1794313724
+[2024.10.31-22.09.20:760][146]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1247126695
+[2024.10.31-22.09.20:788][151]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1794314725
+[2024.10.31-22.09.20:818][157]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D261D02_1599015987
+[2024.10.31-22.09.20:896][173]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3DBB1D02_1615694034
+[2024.10.31-22.09.20:896][173]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D261D02_1599016988
+[2024.10.31-22.09.20:974][188]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1788013721
+[2024.10.31-22.09.21:066][206]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1788012720
+[2024.10.31-22.09.21:071][207]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1247124694
+[2024.10.31-22.09.23:195][628]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1891674465
+[2024.10.31-22.09.24:406][868]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1247124694
+[2024.10.31-22.09.24:415][870]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1384971702
+[2024.10.31-22.09.26:538][306]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1891673464
+[2024.10.31-22.09.27:087][415]LogRHI: Display: Encountered a new graphics PSO: 724063676
+[2024.10.31-22.09.27:087][415]LogRHI: Display: Encountered a new graphics PSO: 2874745432
+[2024.10.31-22.09.27:087][415]LogRHI: Display: Encountered a new graphics PSO: 2184596891
+[2024.10.31-22.09.33:785][796]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1897800473
+[2024.10.31-22.09.33:841][808]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1788012720
+[2024.10.31-22.09.33:871][814]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1809187459
+[2024.10.31-22.09.33:933][827]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D251D02_1133115682
+[2024.10.31-22.09.33:957][832]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1247126695
+[2024.10.31-22.09.33:966][834]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482451
+[2024.10.31-22.09.33:977][836]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482452
+[2024.10.31-22.09.36:045][259]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1891677467
+[2024.10.31-22.09.38:699][797]LogTemp: Warning: Sphere Overlap Begin: PurpleTool_BP_C_UAID_F02F74239C3D261D02_1840616990
+[2024.10.31-22.09.38:868][832]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_2040156748
+[2024.10.31-22.09.38:878][834]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1247126695
+[2024.10.31-22.09.38:882][835]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1897799472
+[2024.10.31-22.09.38:916][842]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1788012720
+[2024.10.31-22.09.38:963][852]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_2040155747
+[2024.10.31-22.09.38:979][855]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1813957726
+[2024.10.31-22.09.38:998][859]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D251D02_1133114681
+[2024.10.31-22.09.41:179][300]LogRHI: Display: Encountered a new graphics PSO: 1992492975
+[2024.10.31-22.09.41:605][386]LogRHI: Display: Encountered a new graphics PSO: 3775080933
+[2024.10.31-22.09.42:208][511]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1365116699
+[2024.10.31-22.09.43:371][751]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D251D02_1133114681
+[2024.10.31-22.09.43:371][751]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482451
+[2024.10.31-22.09.43:385][754]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1897799472
+[2024.10.31-22.09.43:396][756]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_2040153746
+[2024.10.31-22.09.43:450][767]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1813957726
+[2024.10.31-22.09.43:490][775]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482441
+[2024.10.31-22.09.43:490][775]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D261D02_1599012985
+[2024.10.31-22.09.43:548][787]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1809187459
+[2024.10.31-22.09.43:558][789]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1247124694
+[2024.10.31-22.09.43:563][790]LogTemp: Warning: Overlap Begin: BP_CustomAIChar_C_UAID_F02F74239C3D701902_1302002607
+[2024.10.31-22.09.43:563][790]LogTemp: Warning: Overlap End: BP_CustomAIChar_C_UAID_F02F74239C3D701902_1302002607
+[2024.10.31-22.09.43:563][790]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482446
+[2024.10.31-22.09.43:583][794]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_2040152745
+[2024.10.31-22.09.43:594][796]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D251D02_1133115682
+[2024.10.31-22.09.43:594][796]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1897800473
+[2024.10.31-22.09.43:594][796]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482452
+[2024.10.31-22.09.43:652][808]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D261D02_1599014986
+[2024.10.31-22.09.43:720][822]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D251D02_1133093665
+[2024.10.31-22.09.43:720][822]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1801581456
+[2024.10.31-22.09.43:725][823]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_2040151744
+[2024.10.31-22.09.43:759][830]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1897795470
+[2024.10.31-22.09.43:759][830]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1384971702
+[2024.10.31-22.09.43:807][840]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1587044711
+[2024.10.31-22.09.46:969][487]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1281793698
+[2024.10.31-22.09.48:098][721]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482445
+[2024.10.31-22.09.48:198][742]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_2040149743
+[2024.10.31-22.09.48:203][743]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D251D02_1133094666
+[2024.10.31-22.09.48:203][743]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1801586457
+[2024.10.31-22.09.48:256][754]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1897798471
+[2024.10.31-22.09.48:280][759]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3DBB1D02_1615694034
+[2024.10.31-22.09.48:299][763]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1582415710
+[2024.10.31-22.09.48:319][767]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482443
+[2024.10.31-22.09.50:330][178]LogStreaming: Display: 0.003 ms for processing 635 objects in RemoveUnreachableObjects(Queued=0, Async=0). Removed 0 (220->220) packages and 0 (418->418) public exports.
+[2024.10.31-22.09.51:469][410]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1281791697
+[2024.10.31-22.09.52:577][636]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482443
+[2024.10.31-22.09.52:658][652]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D261D02_1921936994
+[2024.10.31-22.09.52:658][652]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D261D02_1921934993
+[2024.10.31-22.09.52:704][661]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D261D02_1535281970
+[2024.10.31-22.09.52:773][675]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3DBB1D02_1615694034
+[2024.10.31-22.09.52:773][675]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D261D02_1535279969
+[2024.10.31-22.09.52:782][677]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_2040148742
+[2024.10.31-22.09.52:842][689]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1801586457
+[2024.10.31-22.09.52:880][697]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D261D02_1535278968
+[2024.10.31-22.09.52:917][705]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1582415710
+[2024.10.31-22.09.52:945][711]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482452
+[2024.10.31-22.09.52:959][714]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D251D02_1133094666
+[2024.10.31-22.09.53:055][733]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1801581456
+[2024.10.31-22.09.53:094][741]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1897798471
+[2024.10.31-22.09.53:106][743]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_2040148742
+[2024.10.31-22.09.56:216][371]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1794313724
+[2024.10.31-22.09.57:393][613]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1384971702
+[2024.10.31-22.09.57:452][625]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D251D02_1133093665
+[2024.10.31-22.09.57:467][628]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1587044711
+[2024.10.31-22.09.57:476][630]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D261D02_1535278968
+[2024.10.31-22.09.57:490][633]LogTemp: Warning: Sphere Overlap Begin: PurpleTool_BP_C_UAID_F02F74239C3DF81E02_1905578823
+[2024.10.31-22.09.57:518][639]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1809187459
+[2024.10.31-22.09.57:558][647]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1897795470
+[2024.10.31-22.09.57:572][650]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_2040149743
+[2024.10.31-22.10.00:667][294]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1794314725
+[2024.10.31-22.10.00:889][340]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_2147482460] -0.000048
+[2024.10.31-22.10.00:889][340]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_2147482460] 1476.228205
+[2024.10.31-22.10.00:889][340]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_2147482460] 2062.768314
+[2024.10.31-22.10.01:029][369]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D271D02_1234529190
+[2024.10.31-22.10.01:037][371]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D271D02_1234528189
+[2024.10.31-22.10.01:047][373]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D271D02_1234530191
+[2024.10.31-22.10.01:090][382]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1813957726
+[2024.10.31-22.10.01:094][383]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D271D02_1234526188
+[2024.10.31-22.10.01:101][384]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D271D02_1234531192
+[2024.10.31-22.10.01:129][390]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D251D02_1133115682
+[2024.10.31-22.10.01:139][392]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1247124694
+[2024.10.31-22.10.01:157][396]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1809184458
+[2024.10.31-22.10.01:191][403]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D271D02_1234525187
+[2024.10.31-22.10.01:201][405]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482451
+[2024.10.31-22.10.01:210][407]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1897795470
+[2024.10.31-22.10.01:214][408]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D261D02_1599014986
+[2024.10.31-22.10.01:287][423]LogTemp: Warning: Sphere Overlap Begin: GoldTool_BP_C_UAID_F02F74239C3DF81E02_1939544824
+[2024.10.31-22.10.01:301][426]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1871473461
+[2024.10.31-22.10.01:326][431]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D271D02_1285155193
+[2024.10.31-22.10.01:351][436]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D271D02_1219074184
+[2024.10.31-22.10.01:373][441]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1247126695
+[2024.10.31-22.10.01:396][445]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482441
+[2024.10.31-22.10.01:409][448]LogTemp: Warning: Overlap Begin: BP_CustomAIChar_C_UAID_F02F74239C3D701902_1302002607
+[2024.10.31-22.10.01:409][448]LogTemp: Warning: Overlap End: BP_CustomAIChar_C_UAID_F02F74239C3D701902_1302002607
+[2024.10.31-22.10.01:409][448]LogTemp: Warning: Sphere Overlap Begin: PurpleTool_BP_C_UAID_F02F74239C3D261D02_1840616990
+[2024.10.31-22.10.01:424][451]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1871470460
+[2024.10.31-22.10.01:440][454]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D271D02_1285157194
+[2024.10.31-22.10.01:526][472]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1891671463
+[2024.10.31-22.10.01:587][485]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1897798471
+[2024.10.31-22.10.01:592][486]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1891671463
+[2024.10.31-22.10.01:705][509]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D261D02_1535278968
+[2024.10.31-22.10.01:743][517]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D251D02_1133115682
+[2024.10.31-22.10.01:781][525]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D271D02_1285157194
+[2024.10.31-22.10.01:791][527]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482441
+[2024.10.31-22.10.01:814][532]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1871470460
+[2024.10.31-22.10.01:820][533]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1247126695
+[2024.10.31-22.10.01:854][540]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D271D02_1234522185
+[2024.10.31-22.10.01:858][541]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_2040149743
+[2024.10.31-22.10.01:867][543]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D261D02_1599014986
+[2024.10.31-22.10.01:895][549]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1813957726
+[2024.10.31-22.10.01:916][553]LogTemp: Warning: Sphere Overlap Begin: GoldTool_BP_C_UAID_F02F74239C3DF81E02_1939544824
+[2024.10.31-22.10.01:921][554]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D271D02_1285155193
+[2024.10.31-22.10.01:935][557]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1871473461
+[2024.10.31-22.10.01:979][566]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1247124694
+[2024.10.31-22.10.01:984][567]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D261D02_1895093992
+[2024.10.31-22.10.01:988][568]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1384971702
+[2024.10.31-22.10.01:994][569]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482451
+[2024.10.31-22.10.02:052][581]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_2040148742
+[2024.10.31-22.10.02:052][581]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1587044711
+[2024.10.31-22.10.02:057][582]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1891678468
+[2024.10.31-22.10.02:092][589]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D271D02_1219072182
+[2024.10.31-22.10.02:101][591]LogTemp: Warning: Sphere Overlap Begin: PurpleTool_BP_C_UAID_F02F74239C3DF81E02_1905578823
+[2024.10.31-22.10.02:101][591]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1809184458
+[2024.10.31-22.10.02:157][602]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D251D02_1133093665
+[2024.10.31-22.10.02:162][603]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D261D02_1895090991
+[2024.10.31-22.10.03:446][863]LogRHI: Display: Encountered a new compute PSO: 2813114029
+[2024.10.31-22.10.05:261][228]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_2040156748
+[2024.10.31-22.10.06:367][446]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3DBB1D02_1615694034
+[2024.10.31-22.10.06:419][457]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482450
+[2024.10.31-22.10.06:469][467]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1891679469
+[2024.10.31-22.10.06:479][469]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_2040146741
+[2024.10.31-22.10.06:484][470]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1582415710
+[2024.10.31-22.10.06:522][478]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D271D02_1219069181
+[2024.10.31-22.10.06:562][486]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1809187459
+[2024.10.31-22.10.06:597][493]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D261D02_1535274965
+[2024.10.31-22.10.09:753][127]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_2040155747
+[2024.10.31-22.10.11:865][557]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D251D02_1133094666
+[2024.10.31-22.10.11:889][562]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3DBB1D02_1612399033
+[2024.10.31-22.10.11:993][582]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1891675466
+[2024.10.31-22.10.12:014][586]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_2040145740
+[2024.10.31-22.10.12:014][586]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D261D02_1599008983
+[2024.10.31-22.10.12:037][591]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D271D02_1170601180
+[2024.10.31-22.10.12:083][600]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D271D02_1234531192
+[2024.10.31-22.10.12:093][602]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1801581456
+[2024.10.31-22.10.12:117][607]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D261D02_1535273964
+[2024.10.31-22.10.13:078][804]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_2147482460] -0.000004
+[2024.10.31-22.10.13:078][804]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_2147482460] 1129.04342
+[2024.10.31-22.10.13:078][804]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_2147482460] 2163.142267
+[2024.10.31-22.10.13:130][815]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D261D02_1535273964
+[2024.10.31-22.10.13:204][830]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1801581456
+[2024.10.31-22.10.13:226][835]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D271D02_1234531192
+[2024.10.31-22.10.13:367][864]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1809187459
+[2024.10.31-22.10.13:372][865]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D261D02_1599008983
+[2024.10.31-22.10.13:406][872]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D251D02_1133094666
+[2024.10.31-22.10.13:421][875]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_2040145740
+[2024.10.31-22.10.13:453][882]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1809184458
+[2024.10.31-22.10.13:507][893]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1871473461
+[2024.10.31-22.10.13:553][902]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1871470460
+[2024.10.31-22.10.13:557][903]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D251D02_1133093665
+[2024.10.31-22.10.13:562][904]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482451
+[2024.10.31-22.10.13:562][904]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3DBB1D02_1604538032
+[2024.10.31-22.10.13:638][919]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482451
+[2024.10.31-22.10.13:643][920]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3DBB1D02_1604538032
+[2024.10.31-22.10.13:657][923]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D251D02_1133093665
+[2024.10.31-22.10.13:682][928]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1871470460
+[2024.10.31-22.10.13:774][947]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1871473461
+[2024.10.31-22.10.13:849][963]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1809184458
+[2024.10.31-22.10.13:864][966]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_2040145740
+[2024.10.31-22.10.13:892][972]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D251D02_1133094666
+[2024.10.31-22.10.13:911][976]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D261D02_1599008983
+[2024.10.31-22.10.13:930][980]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1809187459
+[2024.10.31-22.10.14:012][997]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D271D02_1234531192
+[2024.10.31-22.10.14:023][999]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1801581456
+[2024.10.31-22.10.14:070][  9]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D4B1002_1378398591
+[2024.10.31-22.10.14:070][  9]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D261D02_1535273964
+[2024.10.31-22.10.14:098][ 15]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3DBB1D02_1604538032
+[2024.10.31-22.10.16:207][451]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_2040153746
+[2024.10.31-22.10.17:209][659]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_2147482460] 0.000088
+[2024.10.31-22.10.17:209][659]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_2147482460] 1133.677768
+[2024.10.31-22.10.17:209][659]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_2147482460] 1927.218874
+[2024.10.31-22.10.17:337][685]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3DBB1D02_1604538032
+[2024.10.31-22.10.17:366][691]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D261D02_1535273964
+[2024.10.31-22.10.17:392][696]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D4B1002_1378398591
+[2024.10.31-22.10.17:438][705]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D271D02_1170601180
+[2024.10.31-22.10.17:466][710]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1891675466
+[2024.10.31-22.10.17:510][719]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_2040145740
+[2024.10.31-22.10.17:510][719]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1801581456
+[2024.10.31-22.10.17:515][720]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D261D02_1599008983
+[2024.10.31-22.10.17:524][722]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D271D02_1234531192
+[2024.10.31-22.10.17:544][726]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3DBB1D02_1612399033
+[2024.10.31-22.10.17:645][746]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D261D02_1535274965
+[2024.10.31-22.10.17:726][762]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D271D02_1219069181
+[2024.10.31-22.10.17:753][767]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D251D02_1133094666
+[2024.10.31-22.10.17:787][774]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1891679469
+[2024.10.31-22.10.17:845][786]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_2040146741
+[2024.10.31-22.10.17:845][786]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482450
+[2024.10.31-22.10.17:854][788]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1582415710
+[2024.10.31-22.10.17:863][790]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1809187459
+[2024.10.31-22.10.17:879][793]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3DBB1D02_1615694034
+[2024.10.31-22.10.17:892][796]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D261D02_1895090991
+[2024.10.31-22.10.17:921][802]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D271D02_1219072182
+[2024.10.31-22.10.17:948][808]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D251D02_1133093665
+[2024.10.31-22.10.17:963][811]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1891678468
+[2024.10.31-22.10.17:983][815]LogTemp: Warning: Sphere Overlap Begin: PurpleTool_BP_C_UAID_F02F74239C3DF81E02_1905578823
+[2024.10.31-22.10.18:022][823]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_2040148742
+[2024.10.31-22.10.18:046][828]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1587044711
+[2024.10.31-22.10.18:056][830]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D271D02_1234522185
+[2024.10.31-22.10.18:060][831]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D261D02_1895093992
+[2024.10.31-22.10.18:070][833]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1384971702
+[2024.10.31-22.10.18:155][850]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1897798471
+[2024.10.31-22.10.18:197][859]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D271D02_1219074184
+[2024.10.31-22.10.18:202][860]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1587044711
+[2024.10.31-22.10.18:232][866]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D271D02_1234531192
+[2024.10.31-22.10.18:241][868]LogTemp: Warning: Sphere Overlap Begin: PurpleTool_BP_C_UAID_F02F74239C3DF81E02_1905578823
+[2024.10.31-22.10.18:247][869]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1809187459
+[2024.10.31-22.10.18:261][872]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D251D02_1133093665
+[2024.10.31-22.10.18:275][875]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D271D02_1234525187
+[2024.10.31-22.10.18:279][876]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1384971702
+[2024.10.31-22.10.18:284][877]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D271D02_1234530191
+[2024.10.31-22.10.18:313][883]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D271D02_1234526188
+[2024.10.31-22.10.18:313][883]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D271D02_1234529190
+[2024.10.31-22.10.18:317][884]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D271D02_1234528189
+[2024.10.31-22.10.18:406][902]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_2040148742
+[2024.10.31-22.10.18:416][904]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1801581456
+[2024.10.31-22.10.18:421][905]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1897798471
+[2024.10.31-22.10.18:493][920]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_1582415710
+[2024.10.31-22.10.18:493][920]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D251D02_1133094666
+[2024.10.31-22.10.18:536][929]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D261D02_1895093992
+[2024.10.31-22.10.18:551][932]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3DBB1D02_1615694034
+[2024.10.31-22.10.18:590][940]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_2040146741
+[2024.10.31-22.10.18:595][941]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1801586457
+[2024.10.31-22.10.18:600][942]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1891678468
+[2024.10.31-22.10.18:610][944]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482452
+[2024.10.31-22.10.18:649][952]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482450
+[2024.10.31-22.10.18:654][953]LogTemp: Warning: Sphere Overlap Begin: BlueTool_BP_C_2147482443
+[2024.10.31-22.10.18:658][954]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D261D02_1599008983
+[2024.10.31-22.10.18:669][956]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D4B1002_1378398591
+[2024.10.31-22.10.18:679][958]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3D261D02_1895090991
+[2024.10.31-22.10.18:714][965]LogTemp: Warning: Sphere Overlap Begin: GoldBlock_BP_C_UAID_F02F74239C3DBB1D02_1612399033
+[2024.10.31-22.10.18:748][972]LogTemp: Warning: Sphere Overlap Begin: PurpleBlock_BP_C_UAID_F02F74239C3D251D02_2040145740
+[2024.10.31-22.10.18:756][974]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D241D02_1891679469
+[2024.10.31-22.10.18:781][979]LogTemp: Warning: Sphere Overlap Begin: BlueBlock_BP_C_UAID_F02F74239C3D971A02_2047590546
+[2024.10.31-22.10.19:641][156]LogWindowsDesktop: Alt-F4 pressed!
+[2024.10.31-22.10.19:641][156]LogSlate: Request Window 'GOAP_5_4 (64-bit Development PCD3D_SM6) ' being destroyed
+[2024.10.31-22.10.19:652][156]LogSlate: Window 'GOAP_5_4 (64-bit Development PCD3D_SM6) ' being destroyed
+[2024.10.31-22.10.19:654][156]LogWindowsTextInputMethodSystem: Activated input method: German (Germany) - (Keyboard).
+[2024.10.31-22.10.19:672][156]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.31-22.10.19:672][156]LogEngine: All Windows Closed
+[2024.10.31-22.10.19:672][156]LogWindows: FPlatformMisc::RequestExit(0, UGameEngine::Tick.ViewportClosed)
+[2024.10.31-22.10.19:672][156]LogWindows: FPlatformMisc::RequestExitWithStatus(0, 0, UGameEngine::Tick.ViewportClosed)
+[2024.10.31-22.10.19:672][156]LogCore: Engine exit requested (reason: Win RequestExit)
+[2024.10.31-22.10.19:673][157]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.10.31-22.10.19:674][157]LogInit: Display: PreExit Game.
+[2024.10.31-22.10.19:675][157]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/ThirdPersonMap
+[2024.10.31-22.10.19:676][157]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.10.31-22.10.19:678][157]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.31-22.10.19:678][157]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2024.10.31-22.10.19:678][157]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.10.31-22.10.19:678][157]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.10.31-22.10.19:678][157]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.10.31-22.10.20:673][157]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2024.10.31-22.10.20:673][157]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2024.10.31-22.10.20:673][157]LogAudio: Display: Audio Device unregistered from world 'ThirdPersonMap'.
+[2024.10.31-22.10.20:673][157]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2024.10.31-22.10.20:705][157]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.10.31-22.10.20:706][157]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.10.31-22.10.20:739][157]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2024.10.31-22.10.20:739][157]LogAudio: Display: Audio Device Manager Shutdown
+[2024.10.31-22.10.20:740][157]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.10.31-22.10.20:740][157]LogExit: Preparing to exit.
+[2024.10.31-22.10.20:740][157]LogMoviePlayer: Shutting down movie player
+[2024.10.31-22.10.20:745][157]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.31-22.10.20:760][157]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2024.10.31-22.10.20:762][157]LogExit: Game engine shut down
+[2024.10.31-22.10.20:791][157]LogExit: Object subsystem successfully closed.
+[2024.10.31-22.10.20:835][157]RenderDocPlugin: plugin has been unloaded.
+[2024.10.31-22.10.20:836][157]LogPakFile: Destroying PakPlatformFile
+[2024.10.31-22.10.21:012][157]LogD3D12RHI: ~FD3D12DynamicRHI
+[2024.10.31-22.10.21:019][157]LogExit: Exiting.
+[2024.10.31-22.10.21:032][157]Log file closed, 10/31/24 23:10:21
